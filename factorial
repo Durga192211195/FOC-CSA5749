@@ -1,13 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-	int i,f=1,n;
-	printf("enter a number:");
+	int i,n,cube;
+	printf("enter the number");
 	scanf("%d",&n);
-	for (i=1;i<=n;i++){
-	f=f*i;
-  }
-  printf("factorial of %d is %d",n,f);
-  return 0;
-
+     	for (i=0;i<=n;i++){
+	cube=i*i*i;
+    }
+	printf("cube the number is  %d" ,cube);
+	
+	return 0;
+	
 }
