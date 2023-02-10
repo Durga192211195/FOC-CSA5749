@@ -1,0 +1,4 @@
+read a b
+c=$a$b
+echo 'output:'$c
+
